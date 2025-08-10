@@ -11,17 +11,18 @@ int main(){
     int i=1;
     while (i<=stars)
     {
-        i++;
         int j=1;
         while (j<=i)
         {
-            j++;
             cout<<"*";
+             j++;
         }
         cout<<endl;
+        i++;
         
     }
     
 
     return 0;
+
 }
